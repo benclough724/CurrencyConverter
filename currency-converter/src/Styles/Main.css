@@ -1,0 +1,10 @@
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.calculator{
+    grid-column: 2;
+    text-align: center;
+    margin-top: 30px;
+}

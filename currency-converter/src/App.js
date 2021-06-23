@@ -1,13 +1,10 @@
-import './App.css';
-import './Styles/Tailwind.css'
+import './Styles/Main.css';
 
 function App() {
   return (
-    <div className="grid grid-cols-2">
-      <form class="form-grid">
-        <button type="submit"></button>
-        <button type="submit"></button>  
-        <button type="submit"></button>    
+    <div className="main-container">
+      <form class="calculator">
+        <input type="Text" placeholder="How much you want to convert"/>
       </form>
     </div>
   );
