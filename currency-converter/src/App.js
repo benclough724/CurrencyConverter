@@ -5,6 +5,10 @@ function App() {
 
   const [numToConvert, setNumToConvert] = useState();
 
+  numToConvertSubmit(){
+    return null;
+  }
+
   function numToConvertChange(e){
     e.preventDefault();
     setNumToConvert(e.target.value);
